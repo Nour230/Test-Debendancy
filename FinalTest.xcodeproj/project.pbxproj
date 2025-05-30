@@ -19,6 +19,7 @@
 		146B35A42DE9EC0800BE40E4 /* FinalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B35A32DE9EC0800BE40E4 /* FinalTestUITestsLaunchTests.swift */; };
 		146B35B22DE9F0D800BE40E4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 146B35B12DE9F0D800BE40E4 /* Alamofire */; };
 		146B35B52DE9F10300BE40E4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 146B35B42DE9F10300BE40E4 /* Kingfisher */; };
+		B87FB0842DE9F25F002F65E2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FB0832DE9F25C002F65E2 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		146B359D2DE9EC0800BE40E4 /* FinalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146B35A12DE9EC0800BE40E4 /* FinalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalTestUITests.swift; sourceTree = "<group>"; };
 		146B35A32DE9EC0800BE40E4 /* FinalTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B87FB0832DE9F25C002F65E2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		146B357C2DE9EBE400BE40E4 /* FinalTest */ = {
 			isa = PBXGroup;
 			children = (
+				B87FB0832DE9F25C002F65E2 /* Data.swift */,
 				146B357D2DE9EBE400BE40E4 /* AppDelegate.swift */,
 				146B357F2DE9EBE400BE40E4 /* SceneDelegate.swift */,
 				146B35812DE9EBE400BE40E4 /* ViewController.swift */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				146B35882DE9EBE500BE40E4 /* FinalTest.xcdatamodeld in Sources */,
+				B87FB0842DE9F25F002F65E2 /* Data.swift in Sources */,
 				146B35822DE9EBE400BE40E4 /* ViewController.swift in Sources */,
 				146B357E2DE9EBE400BE40E4 /* AppDelegate.swift in Sources */,
 				146B35802DE9EBE400BE40E4 /* SceneDelegate.swift in Sources */,

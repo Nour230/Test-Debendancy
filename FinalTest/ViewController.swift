@@ -12,9 +12,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("nourrrrr")
+        
+        var obj: NetworkManager!
+        obj = NetworkManager()
+        obj.getLeagues(sport: "football"){ (result) in
+            print(result)
+        }
     }
-
-
 }
 
